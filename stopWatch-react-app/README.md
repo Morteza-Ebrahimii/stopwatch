@@ -38,7 +38,7 @@ make stopWatch in react.
     definde setInterval to intervalIdRef.current
     )
 
-    .make cleanUp return for useEffect.(clear the internalIdRef.current)
+    .make cleanUp return for useEffect.(clear the intervalIdRef.current)
 
 9. handle function formatTime
     .let hours = Math.floor(elapsedTime/ (1000 * 60 * 60))
